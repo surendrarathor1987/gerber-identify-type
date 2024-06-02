@@ -5,6 +5,5 @@
 /coverage/
 
 # Build files
-/dist
 /Gerbers
 .env
