@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.CAD_SPRINT_LAYOUT = exports.CAD_EASY_PC = exports.CAD_TINA = exports.CAD_DESIGNSPARK_PCB = exports.CAD_AUTODESK_EAGLE = exports.CAD_TINKERCAD = exports.CAD_ZENITPCB = exports.CAD_EXPEESSPCB = exports.CAD_MULTISIM = exports.CAD_FRITZING = exports.CAD_CIRCUITSTUDIO = exports.CAD_ULTIBOARD = exports.CAD_PCB123 = exports.CAD_GEDA = exports.CAD_XPEDITION = exports.CAD_PCAD = exports.CAD_TARGET_3001 = exports.CAD_CADENCE_ALLEGRO = exports.CAD_EASYEDA = exports.CAD_CIRCUITMAKER = exports.CAD_PADS = exports.CAD_PROTEUS = exports.CAD_DIPTRACE = exports.CAD_ORCAD = exports.CAD_GEDA_PCB = exports.CAD_EAGLE_PCBNG = exports.CAD_EAGLE_OSHPARK = exports.CAD_EAGLE_LEGACY = exports.CAD_EAGLE = exports.CAD_ALLEGRO = exports.CAD_ALTIUM = exports.CAD_KICAD = exports.SIDE_ALL = exports.SIDE_INNER = exports.SIDE_BOTTOM = exports.SIDE_TOP = exports.TYPE_DRAWING = exports.TYPE_OUTLINE = exports.TYPE_DRILL = exports.TYPE_SOLDERPASTE = exports.TYPE_SILKSCREEN = exports.TYPE_SOLDERMASK = exports.TYPE_COPPER = void 0;
+exports.CAD_OSMOND_PCB = exports.CAD_CAM350 = exports.CAD_ZOFZPCB = exports.CAD_GERBERLOGIX = exports.CAD_VIEWMATE = exports.CAD_GERBV = exports.CAD_SPRINT_LAYOUT = exports.CAD_EASY_PC = exports.CAD_TINA = exports.CAD_DESIGNSPARK_PCB = exports.CAD_AUTODESK_EAGLE = exports.CAD_TINKERCAD = exports.CAD_ZENITPCB = exports.CAD_EXPEESSPCB = exports.CAD_MULTISIM = exports.CAD_FRITZING = exports.CAD_CIRCUITSTUDIO = exports.CAD_ULTIBOARD = exports.CAD_PCB123 = exports.CAD_GEDA = exports.CAD_XPEDITION = exports.CAD_PCAD = exports.CAD_TARGET_3001 = exports.CAD_CADENCE_ALLEGRO = exports.CAD_EASYEDA = exports.CAD_CIRCUITMAKER = exports.CAD_PADS = exports.CAD_PROTEUS = exports.CAD_DIPTRACE = exports.CAD_ORCAD = exports.CAD_GEDA_PCB = exports.CAD_EAGLE_PCBNG = exports.CAD_EAGLE_OSHPARK = exports.CAD_EAGLE_LEGACY = exports.CAD_EAGLE = exports.CAD_ALLEGRO = exports.CAD_ALTIUM = exports.CAD_KICAD = exports.SIDE_ALL = exports.SIDE_INNER = exports.SIDE_BOTTOM = exports.SIDE_TOP = exports.TYPE_REPORT = exports.TYPE_DRAWING = exports.TYPE_OUTLINE = exports.TYPE_DRILL = exports.TYPE_SOLDERPASTE = exports.TYPE_SILKSCREEN = exports.TYPE_SOLDERMASK = exports.TYPE_COPPER = void 0;
+exports.CAD_UCAMCO = void 0;
 // Layer types
 exports.TYPE_COPPER = 'copper';
 exports.TYPE_SOLDERMASK = 'soldermask';
@@ -9,6 +10,7 @@ exports.TYPE_SOLDERPASTE = 'solderpaste';
 exports.TYPE_DRILL = 'drill';
 exports.TYPE_OUTLINE = 'outline';
 exports.TYPE_DRAWING = 'drawing';
+exports.TYPE_REPORT = 'report';
 // Board sides
 exports.SIDE_TOP = 'top';
 exports.SIDE_BOTTOM = 'bottom';
@@ -48,4 +50,11 @@ exports.CAD_DESIGNSPARK_PCB = 'designspark-pcb';
 exports.CAD_TINA = 'tina';
 exports.CAD_EASY_PC = 'easy-pc';
 exports.CAD_SPRINT_LAYOUT = 'sprint-layout';
+exports.CAD_GERBV = 'gerbv';
+exports.CAD_VIEWMATE = 'viewmate';
+exports.CAD_GERBERLOGIX = 'gerberlogix';
+exports.CAD_ZOFZPCB = 'zofzpcb';
+exports.CAD_CAM350 = 'cam350';
+exports.CAD_OSMOND_PCB = 'osmondpcb';
+exports.CAD_UCAMCO = 'ucamco';
 //# sourceMappingURL=constants.js.map

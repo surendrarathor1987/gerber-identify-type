@@ -6,6 +6,7 @@ export const TYPE_SOLDERPASTE = 'solderpaste'
 export const TYPE_DRILL = 'drill'
 export const TYPE_OUTLINE = 'outline'
 export const TYPE_DRAWING = 'drawing'
+export const TYPE_REPORT = 'report'
 
 // Board sides
 export const SIDE_TOP = 'top'
@@ -47,4 +48,13 @@ export const CAD_DESIGNSPARK_PCB = 'designspark-pcb'
 export const CAD_TINA = 'tina'
 export const CAD_EASY_PC = 'easy-pc'
 export const CAD_SPRINT_LAYOUT = 'sprint-layout'
+export const CAD_GERBV = 'gerbv'
+export const CAD_VIEWMATE = 'viewmate'
+export const CAD_GERBERLOGIX = 'gerberlogix'
+export const CAD_ZOFZPCB = 'zofzpcb'
+export const CAD_CAM350 = 'cam350'
+export const CAD_OSMOND_PCB = 'osmondpcb'
+export const CAD_UCAMCO = 'ucamco'
+
+
 

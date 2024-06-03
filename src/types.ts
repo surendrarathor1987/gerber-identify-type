@@ -22,6 +22,7 @@ export type GerberType =
   | typeof Constants.TYPE_DRILL
   | typeof Constants.TYPE_OUTLINE
   | typeof Constants.TYPE_DRAWING
+  | typeof Constants.TYPE_REPORT
   | null
 
 export type GerberSide =
@@ -64,6 +65,13 @@ export type GerberCad =
   | typeof Constants.CAD_EASY_PC
   | typeof Constants.CAD_TINA
   | typeof Constants.CAD_SPRINT_LAYOUT
+  | typeof Constants.CAD_GERBV
+  | typeof Constants.CAD_VIEWMATE
+  | typeof Constants.CAD_GERBERLOGIX
+  | typeof Constants.CAD_ZOFZPCB
+  | typeof Constants.CAD_CAM350
+  | typeof Constants.CAD_OSMOND_PCB
+  | typeof Constants.CAD_UCAMCO
   | null
 
 export interface ExtensionMatcher {
